@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -c -i "bim" /etc/passwd
+grep -i "bim" /etc/passwd | wc -l
